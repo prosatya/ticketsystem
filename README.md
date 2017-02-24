@@ -5,9 +5,12 @@
 A system to provide support to there clients.
 
 
+
 = Introduction =
 
 This is the System for client to get support by register here and create ticket for the concern.
+
+
 
 = How does it work? =
 
@@ -41,14 +44,26 @@ This is for Create Support Ticket
 
 	Can also close a ticket.	
 
+
+
 == Installation ==
 
 Git Clone via https://github.com/prosatya/ticketsystem.git or Download zip and put on your php server.
 
 Cloned directory contains folder named "db-script" it this sql script create databse and import this file.
 
+OR Run "php artisan migrate" for databse creation.
+
 Update database details in .env file and run system.
 
+
+
+
+== Technology Used == 
+
+Laravel Framework version 5.2.45
+
+Angular js 1.3.2
 
 
 
